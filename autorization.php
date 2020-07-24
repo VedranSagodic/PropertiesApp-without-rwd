@@ -8,14 +8,14 @@ $userLogin = array (
 );
 
 if(!isset($_POST['email']) || !isset($_POST['password'])){
-     header('location: index.php?p=1');
+     header('location: index.php?error=1');
     exit;
 }
 
 // ovdje neće doći ukoliko ključevi email i lozinka nisu postavljeni
 
 if(trim($_POST['email'])==='' || trim($_POST['password'])===''){
-    header('location: index.php?p=2');
+    header('location: index.php?error=2');
     exit;
 }
 
@@ -25,7 +25,7 @@ if(trim($_POST['email'])==='' || trim($_POST['password'])===''){
 
     
 if(!($userLogin[$_POST['email']] == $_POST['password'])) {
-    header('location: index.php?p=3');
+    header('location: index.php?error=3');
     exit;
     }
 
