@@ -81,7 +81,7 @@
 
           </form>
 
-          <a href="https://github.com/VedranSagodic/hellopp21/tree/master/properties_app.hr">Link na github kod</a>
+          <a href="https://github.com/VedranSagodic/PropertiesApp-without-rwd">Link na github kod</a>
           
         </div>
 
