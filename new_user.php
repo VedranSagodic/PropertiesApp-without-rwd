@@ -59,27 +59,27 @@ if(isset($_POST['name'])){
 <form class="form" method="POST">
     <div class="formObject">
 <label>Name:</label>
-      <input class="formElement" type="text" id="name" name="name" placeholder="Set user Name">
+      <input class="formElement" type="text" id="name" name="name" placeholder="Set user Name" required>
   </div>
   <div class="formObject">
   <label>Surname:</label>
-      <input class="formElement" type="text" id="surname" name="surname" placeholder=" Set user Surname">
+      <input class="formElement" type="text" id="surname" name="surname" placeholder=" Set user Surname" required>
   </div>
   <div class="formObject">
   <label>Password:</label>
-      <input class="formElement" type="text" id="password" name="password"  placeholder="Set user Password">
+      <input class="formElement" type="text" id="password" name="password"  placeholder="Set user Password" required>
   </div>
   <div class="formObject">
   <label>E-mail:</label>
-      <input class="formElement" type="e-mail" id="e_mail" name="e_mail"  placeholder="Set user E-mail">
+      <input class="formElement" type="e-mail" id="e_mail" name="e_mail"  placeholder="Set user E-mail" required>
   </div>
   <div class="formObject">
   <label>Phone:</label>
-      <input class="formElement" type="number" id="phone" name="phone" placeholder="Set user Phone number">
+      <input class="formElement" type="number" id="phone" name="phone" placeholder="Set user Phone number" required>
   </div>
   <div class="formObject">
   <label>Address:</label>
-      <input class="formElement" type="text" id="address" name="address" placeholder="Set user Address">
+      <input class="formElement" type="text" id="address" name="address" placeholder="Set user Address" required>
   </div>
   <button type="submit" class="btn-submit">Submit</button>
   </div>
